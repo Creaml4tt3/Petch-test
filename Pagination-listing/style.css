@@ -1,0 +1,13 @@
+.listing-grid {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  max-width: 900px;
+}
+
+.listing-grid > section {
+  box-sizing: border-box;
+  padding: 40px;
+  width: 33%;
+  border: 2px solid red;
+}
