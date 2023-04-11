@@ -1,8 +1,8 @@
-export default function Test() {
-  const text = "Petch";
-  return <div className="Test">{text}</div>;
+export default function TestMore() {
+  const text = "Petch VS Lnw POP";
+  return <div className="TestMore">{text}</div>;
 }
 
 document
   .getElementById("test")
-  .innerHTML('<div class="Test" onclick=""></div>');
+  .innerHTML('<div class="Test More Again" onclick=""></div>');
